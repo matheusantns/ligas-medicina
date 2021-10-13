@@ -1,0 +1,767 @@
+body {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.row {
+    margin: 0;
+}
+
+:hover {
+    transition: 0.7s;
+}
+
+h4 {
+    background-color: #628725;
+    display: inline-block;
+    color: white;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+a {
+    color: #628725;
+}
+
+a:hover {
+    color: #628725;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+p {
+    color: #628725;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapperTitle {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.wrapperOurBlog {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navbar-inverse {
+    height: 70px;
+    background-image: linear-gradient(to right, #628725 , #CAFF44);
+    border-style: none;
+    border-radius: 0 0 25px 25px;
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbarSandwich {
+    margin-top: 11px;
+}
+
+.navbar-toggle {
+    margin-right: 0px !important;
+    background-color: white;
+    border-color: transparent !important;
+}
+
+.icon-bar {
+    background-color: #83BB26 !important;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color:  #edffce;
+    transition: 0.7s;
+}
+
+.navbar-inverse .navbar-nav .dropdown li a {
+    color:#5B8534;
+    padding: 5px 0 5px 10px !important;
+}
+
+.navbar-inverse .navbar-nav .dropdown li a:hover {
+    color:white;
+    background-color: #83BB26;
+    padding: 5px 0 5px 10px !important;
+    transition: 0.7s;
+}
+
+.navbar-inverse .navbar-nav .dropdown li {
+    padding: 0 !important;
+    border-radius: 20px;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: white;
+    color: #628725;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+    background-color: #628725 !important;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: white;
+    color: #628725;
+    border-radius: 10px;
+}
+
+.navbar-header {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.itensMenu {
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#logo {
+    width: 48px;
+    height: auto;
+    margin: auto;
+    padding-right: 5px; 
+}
+
+#ligasTitle {
+    display: inline-block;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    font-family: 'Raleway', Times, serif;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+.active a {
+    background-color: white !important;
+    color: #628725 !important; 
+    border-radius: 10px;
+}
+
+.backgroundColor {
+    background-color: #F9FFE3;
+}
+
+.backgroundColorTwo {
+    background-color: #F9FFE3;
+    /* padding-bottom: 40px; */
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+.dropdownLiga a {
+    color: #5B8534 !important;
+}
+
+.imgCards {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.dataEvento {
+    padding: 3px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #83BB26;
+    color: white;
+}
+
+.infoCards {
+    background-color: white;
+}
+
+.wrapIcon {
+    position: relative;
+    padding: 25px 10px;
+}
+
+.textoCard {
+    display: inline-block;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    left: 70px;
+}
+
+.tituloCard {
+    display: inline-block;
+    font-weight: 500;
+    color: #628725;
+    font-size: 1.5rem;
+    hyphens: auto;
+    padding-right: 10px;
+}
+
+#eventos {
+    margin-bottom: 30px;
+}
+
+.tituloCardEventos {
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    color: #628725;
+    font-size: 1.5rem;
+    hyphens: auto;
+    padding: 10px;
+}
+
+.localEvento {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.tituloCard a:hover {
+    color: #83BB26;
+    transition: 0.7s;
+}
+
+.readMore {
+    padding: 30px 0px 15px 15px;
+    font-size: 1.2rem;
+}
+
+.readMore1 {
+    padding: 30px 0px 15px 15px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.by {
+    font-size: 1.2rem;
+    color: #83BB26;
+}
+
+.leagueOwner {
+    font-size: 1.2rem;
+    color: #5B8534;
+    font-weight: 500;
+}
+
+.leagueOwner a {
+    text-decoration: none;
+    color: #5B8534;
+}
+
+.leagueOwner a:hover {
+    color: #83BB26;
+    transition: 0.7s;
+}
+
+.btn-success {
+    background-color: #83BB26;
+    border-color: transparent !important;
+}
+
+.btn-success:hover {
+    background-color: #628725;
+    border-color: transparent !important;
+    transition: 0.7s;
+}
+
+.seeMore {
+    padding: 30px 0 70px 0;
+}
+
+.subscribe {
+    padding: 10px 0 20px 0;
+}
+
+.seeMore2 {
+    padding: 30px 0 40px 0;
+}
+
+.backgroundAbout{
+    background-image: linear-gradient(to right, #628725 , #CAFF44);
+    border-radius: 25px;
+    margin-top: -30px;
+}
+
+.backgroundAboutstd{
+    background-image: linear-gradient(to right, rgb(146, 185, 46), #628725);
+    padding-top: 70px;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+
+.aboutText{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.imageAbout {
+    display: contents;
+}
+
+.imageAbout img {
+    max-width:35%;
+    height:auto;
+    display: block;
+    margin:auto;
+}
+
+.wrapTextAbout {
+    padding-left: 0 !important;
+}
+
+.about {
+    background-color: white !important;
+    display: inline-block;
+    color: #5B8534;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.btn-light {
+    font-size: 1.2rem;
+    color: #5B8534;
+    background-color: white;
+    border-color: transparent;
+    margin: 10px 0 10px 0;
+}
+
+.btn-light:hover {
+    font-size: 1.2rem;
+    border-color: transparent;
+    color: #5B8534;
+    background-color: white;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.iconsAboutBlog {
+    float: right;
+}
+
+.iconsAbout img {
+    padding: 0 2px 0 0;
+    margin-bottom: 30px;
+}
+
+.iconsAbout1 img {
+    padding: 0 2px 0 0;
+    margin-bottom: 10px;
+}
+
+.iconsAbout1 img:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.iconsAbout img:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.logos {
+    padding: 0;
+    margin: 0;
+}
+
+.logos img {
+    padding: 20px;
+    height: 100px;
+    width: auto;
+}
+
+.rodape {
+    position: relative;
+    background-image: linear-gradient(to right, #628725 , #CAFF44);
+    border-style: none;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.logosRodape {
+    float: right;
+}
+
+.logosRodape img {
+    padding: 20px;
+    height: 80px;
+    width: auto;
+}
+
+.itensRodape {
+    display: inline-flex;
+    padding: 0;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.rodapeTextWrapper ul li {
+    list-style-type: none;
+}
+
+.rodapeTextWrapper ul li a {
+    color: white;
+    padding: 0 20px;
+}
+
+.rodapeTextWrapper ul li a:hover {
+    transition: 0.4s;
+    color:  #edffce;
+}
+
+.diretorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.diretorias img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    height: 170px;
+    width: auto;
+}
+
+.diretorias p.nomeDiretor {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.diretorias p.nomeLiga {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.diretorias p.nomeLigaAbout {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.diretoria {
+    margin: auto;
+    width: 200px;
+}
+
+.wrapperFollowUs {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrapperFollowUs h4 {
+    font-size: 1.2rem;
+    height: 35px;
+}
+
+.secao {
+    margin-top: 90px;
+}
+
+.secao p {
+    font-size: 1.2rem;
+}
+
+.secaoAbout {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.secaoAbout p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.margint10 {
+    margin-top:10px;
+}
+
+.nomargin {
+    margin: 0;
+    padding: 0;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #628725 !important;
+    border-color: #628725;
+}
+
+.form-control {
+    background-color: #628725;
+    border-color: transparent;
+    color: white;
+}
+
+::placeholder {
+    color: #edffce !important;
+}
+
+.logoAbout {
+    padding: 40px 0 20px 0;
+}
+
+.imagewrapper {
+    position: relative;
+}
+
+.infoAbout {
+    margin-top: 110px;
+    top: 50%;
+}
+
+.imagewrapper img {
+    display: block;
+    margin: auto;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.infoAbout p {
+    color: white;
+}
+
+.titleBlogPost {
+    color: #5B8534;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.subtitleBlogPost {
+    color: #83BB26;
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.infoBlog {
+    font-size: 1.2rem;
+    background-color: #5B8534;
+    margin: 15px 0 15px 15px;
+    border-radius: 10px;
+}
+
+.infoBlog p {
+    padding: 10px 0 10px 0 !important;
+    margin: 0;
+    color: white;
+}
+
+.textoBlog p {
+    color: black;
+    hyphens: auto;
+}
+
+p.share {
+    font-size: 1.6rem;
+    color: #5B8534;
+}
+
+.backgroundbox {
+    background-color: #F9FFE3;
+    border-radius: 15px;
+}
+
+.imageandpost {
+    position: relative;
+}
+
+.imageandpost img {
+    width: 50px;
+    height: auto;
+    margin: 10px 10px 10px 0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.imageandpost div {
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+    color: #628725;
+}
+
+.imageandpost div a:hover {
+    color: #83BB26;
+}
+
+.postsSeeMore1 {
+    background-color: #f9ffe3;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px 0 20px 0;
+    color: #628725;
+}
+
+.imageandpost1 {
+    position: relative;
+}
+
+.imageandpost1 img {
+    margin: 8px 10px 8px 0;
+    width: 13px;
+    height: auto;
+}
+
+.imageandpost1 div {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline;
+    color: #628725;
+}
+
+@media screen and (max-width: 540px) {
+
+    .share {
+        float: none;
+        margin: 10 auto;
+        text-align: center;   
+    }
+
+    .iconsAboutBlog {    
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .secao {
+        padding: 0 !important;
+    }
+
+    .col-xs-12 {
+        padding: 0;
+    }
+
+    .infoBlog {
+        margin-left: 0;
+    }
+
+    .centerMobile {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .aboutText {
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .imageAbout {
+        display: none;
+    }
+
+    .wrapTextAbout {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .followus {
+        text-align: center;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .logos img {
+        padding: 20px;
+        height: 90px;
+        width: auto;
+    }
+
+    .rodapeTextWrapper {
+        display: none;
+    }
+
+    .logosRodape {
+        float: none;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .logosRodape img {
+        padding: 15px;
+        height: 65px;
+        width: auto;
+    }
+
+    .logoAbout {
+        width: 250px;
+    }
+
+    .infoAbout {
+        margin-top: 10px;
+    }
+
+    .infoAbout p {
+        text-align: justify;
+        hyphens: auto;
+    }
+
+}
